@@ -1,0 +1,9 @@
+.dynamic-menu {
+    height: 1000px;
+    > div {
+        display: none;
+    }
+}
+.dynamic-menu:has(article) {
+    height: unset;
+}
