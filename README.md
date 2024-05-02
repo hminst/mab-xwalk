@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.hlx.page/
-- Live: https://main--{repo}--{owner}.hlx.live/
+- Preview: https://main--mab-xwalk--hminst.hlx.page/
+- Live: https://main--mab-xwalk--hminst.hlx.live/
 
 ## Installation
 
