@@ -1,5 +1,4 @@
 export default function decorate(block) {
-
     const mabMenu = document.createElement('mab-menu');
     mabMenu.setAttributeNS(null, 'id',"Trading Entity.12345");
     mabMenu.setAttributeNS(null, "api-url", 'https://api-development.mbplc.io/mabapi-menu-v2-poc/api/v1/menus/dynamic')
@@ -11,5 +10,4 @@ export default function decorate(block) {
     mabMenu.setAttributeNS(null, 'page-path',"harvester.co.uk");
     mabMenu.setAttributeNS(null, 'smart-chef-url',"https://www.smartchef.co.uk/brands/VintageInns");    
     block.append(mabMenu);
-
 }
