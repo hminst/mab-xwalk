@@ -6,6 +6,7 @@ sampleRUM('cwv');
 
 // add more delayed functionality here
 
+/*
 let coreComp = document.createElement("script");
     coreComp.setAttribute("src", "/scripts/mab/container.js");
     document.body.appendChild(coreComp);
@@ -13,3 +14,4 @@ let coreComp = document.createElement("script");
     let scriptEle = document.createElement("script");
     scriptEle.setAttribute("src", "/scripts/mab/clientlib-base.js");
     document.body.appendChild(scriptEle);
+*/
