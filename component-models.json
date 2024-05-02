@@ -164,28 +164,28 @@
     "id": "dynamic-menu",
     "fields": [
       {
-        "component": "richtext",
+        "component": "text",
         "name": "api-url",
         "value": "",
         "label": "API Url",
         "valueType": "string"
       },
       {
-        "component": "richtext",
+        "component": "text",
         "name": "brand-id",
         "value": "",
         "label": "Brand ID",
         "valueType": "string"
       },
       {
-        "component": "richtext",
+        "component": "text",
         "name": "id-type",
         "value": "",
         "label": "ID Type",
         "valueType": "string"
       },
       {
-        "component": "richtext",
+        "component": "text",
         "name": "menu-description-override",
         "value": "",
         "label": "Menu Description Override",
