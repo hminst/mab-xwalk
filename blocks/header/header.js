@@ -114,6 +114,9 @@ export default async function decorate(block) {
     logoLink.title = 'Go to home page';
     logoLink.href = '/';
     const navBrandLogo = navBrand.querySelector('picture');
+    const image = navBrand.getElementsByTagName('img')[0]
+    console.log(image)
+    image.setAttribute('loading',"eager")
     if (navBrandLogo) {
       logoLink.appendChild(navBrandLogo);
     }
