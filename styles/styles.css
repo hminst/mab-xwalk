@@ -10,32 +10,34 @@
  * governing permissions and limitations under the License.
  */
 
-:root {
+ :root {
   /* colors */
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
-  --background-color: white;
+  --brand-color: #016543;
+  --link-color: var(--brand-color);
+  --link-hover-color: var(--brand-color);
+  --background-color: #fff;
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback;
-  --heading-font-family: var(--body-font-family);
-  --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+  --body-font-family: din;
+  --heading-font-family: din;
+  --fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
 
   /* body sizes */
-  --body-font-size-m: 22px;
+  --body-font-size-l: 22px;
+  --body-font-size-m: 16px;
   --body-font-size-s: 18px;
   --body-font-size-xs: 16px;
 
   /* heading sizes */
-  --heading-font-size-xxl: 48px;
-  --heading-font-size-xl: 40px;
-  --heading-font-size-l: 32px;
-  --heading-font-size-m: 24px;
-  --heading-font-size-s: 20px;
-  --heading-font-size-xs: 18px;
+  --heading-font-size-xxl: 32px;
+  --heading-font-size-xl: 24px;
+  --heading-font-size-l: 20px;
+  --heading-font-size-m: 16px;
+  --heading-font-size-s: 14px;
+  --heading-font-size-xs: 12px;
 
   /* nav height */
   --nav-height: 64px;
@@ -187,12 +189,17 @@ main img {
 
 /* sections */
 main .section {
-  padding: 64px 16px;
+ padding: 0 16px;
+ background-color: white;
+}
+
+main .section:nth-child(even) {
+  background-color: grey;
 }
 
 @media (width >= 600px) {
   main .section {
-    padding: 64px 32px;
+    padding: 10px 32px;
   }
 }
 
