@@ -1,9 +1,8 @@
 .dynamic-menu {
-    height: 1000px;
-    margin: 100px auto 500px;
+    margin: 100px auto 1000px;
     border: 20px solid #EAF0F6;
     border-radius: 50%;
-    border-top: 20px solid #FF7A59;
+    border-top: 20px solid var(--brand-color);;
     width: 200px;
     height: 200px;
     animation: spinner 4s linear infinite;
@@ -13,7 +12,6 @@
     }
 }
 .dynamic-menu:has(article) {
-    height: unset;
     animation: unset;
     margin: unset;
     border: unset;
@@ -22,16 +20,6 @@
     width: unset;
     height: unset;
 }
-
-.loader {
-    margin: auto;
-    border: 20px solid #EAF0F6;
-    border-radius: 50%;
-    border-top: 20px solid #FF7A59;
-    width: 200px;
-    height: 200px;
-    animation: spinner 4s linear infinite;
-  }
   
   @keyframes spinner {
     0% { transform: rotate(0deg); }
