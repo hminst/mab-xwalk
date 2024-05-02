@@ -1,9 +1,27 @@
 .dynamic-menu {
-    height: 1000px;
+    margin: 100px auto 1000px;
+    border: 20px solid #EAF0F6;
+    border-radius: 50%;
+    border-top: 20px solid var(--brand-color);;
+    width: 200px;
+    height: 200px;
+    animation: spinner 4s linear infinite;
+
     > div {
         display: none;
     }
 }
 .dynamic-menu:has(article) {
+    animation: unset;
+    margin: unset;
+    border: unset;
+    border-radius: unset;
+    border-top: unset;
+    width: unset;
     height: unset;
 }
+  
+  @keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
