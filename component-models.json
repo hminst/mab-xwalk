@@ -164,24 +164,31 @@
     "id": "dynamic-menu",
     "fields": [
       {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
-        "value": ""
+        "component": "richtext",
+        "name": "api-url",
+        "value": "",
+        "label": "API Url",
+        "valueType": "string"
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "brand-id",
         "value": "",
-        "label": "Text",
+        "label": "Brand ID",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "id-type",
+        "value": "",
+        "label": "ID Type",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "menu-description-override",
+        "value": "",
+        "label": "Menu Description Override",
         "valueType": "string"
       }
     ]
