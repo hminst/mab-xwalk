@@ -2,10 +2,11 @@ footer {
   padding: 2rem;
   background-color: var(--brand-color);
   font-size: var(--body-font-size-s);
+  color: var(--light-color);
 }
 
 footer a:any-link {
-  color: var(--background-color);
+  color: var(--light-color);
 }
 
 footer ul {
