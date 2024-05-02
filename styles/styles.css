@@ -19,6 +19,13 @@
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
+  --brandColorLight: #e6f0ec;
+  --bodyTextColor: #545356;
+  --primaryFontFamily: "Din", sans-serif;
+  --secondaryFontFamily: "Abel", sans-serif;
+  --brandSectionRoundedCorners: 8px;
+  --featuredItemBackgroundColor: #016543;
+  --featuredItemTextColor: #f7f7f7;
 
   /* fonts */
   --body-font-family: din;
